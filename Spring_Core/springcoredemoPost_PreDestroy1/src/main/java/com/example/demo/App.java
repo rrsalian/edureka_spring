@@ -1,10 +1,10 @@
 package com.example.demo;
-import org.springframework.context.ApplicationContext;
+//import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App {
     public static void main(String[] args) throws Exception {
-    
+        //Context Close method is not part of ApplicationContext but the AnnotatinConfigApplicationContext
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         // Employee emp = context.getBean("employee",Employee.class);
         // emp.setEmpId("E100");
