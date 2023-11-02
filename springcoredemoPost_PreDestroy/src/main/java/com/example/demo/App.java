@@ -1,0 +1,24 @@
+package com.example.demo;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+    
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        // Employee emp = context.getBean("employee",Employee.class);
+        // emp.setEmpId("E100");
+        // emp.setEmpName("John");
+
+        // Department dept = context.getBean("dept", Department.class);
+        // dept.setDeptId("d100");
+        // dept.setDeptName("IT department");
+
+        // System.out.println(emp);
+        // System.out.println(dept);
+        // System.out.println(emp.getDept());
+        System.out.println("before context close ");
+        context.close();
+        System.out.println("After context close");
+    }
+}

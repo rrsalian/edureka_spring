@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!-- Primary should be used to denote which class to use when it is autowire byType else it will create ambiguity as there are 2 beans with Department type-->
+<bean id="emp" class="com.example.demo.Employee" autowire="byType">
+<!-- manual wiring 
+  <property name="dept" ref="department"/> -->
+</bean>
+
+<!-- Autowire by contructor is same as byType except that it will look at the constructor argument for the object type-->
+<bean id="department" class="com.example.demo.Department" primary="true" autowire="constructor"/>
+<bean id="dept" class="com.example.demo.Department" />
+
+<bean id="hu" class="com.example.demo.HeadUnit" />
+</beans>
