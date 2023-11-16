@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean id="student" class="com.example.demo.Student">
+  <property name="name" value="Andy"/>
+  <property name="id" value="09EEASART046"/>
+  <property name="hostel" value="#{hostel}"/>
+  <property name="currentCity" value="#{hostel.city}"/>
+</bean>
+
+<bean id="hostel" class="com.example.demo.Hostel">
+  <property name="hostelName" value="Perfect Stay Hostel"/>
+  <property name="city" value="Bangalore"/>
+</bean>
+
+</beans>
