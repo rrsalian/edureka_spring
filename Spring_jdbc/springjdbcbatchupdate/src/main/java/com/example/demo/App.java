@@ -20,7 +20,7 @@ public class App {
             customers.add(customer);
         }
         //service.saveCustomerDataAsBatch(customers);
-        service.saveCustomerDataWithPartialBatch(customers, 200);
+        service.saveCustomerDataWithPartialBatch(customers, 150);
         context.close();
     }
 }
