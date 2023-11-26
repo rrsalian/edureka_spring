@@ -19,7 +19,7 @@
 	<!-- @Controller, @Service, @Configuration, etc. -->
     <!-- Step1: add component scan to tell dispatchersrvlet that spring beans with @Controller 
         are defined in this package -->
-	<context:component-scan base-package="com.example.demo" />
+	<context:component-scan base-package="com.example" />
 
     <!-- Step2: enable mvc functionality, request/response/validation etc-->
 	<!-- Enables the Spring MVC @Controller programming model -->
