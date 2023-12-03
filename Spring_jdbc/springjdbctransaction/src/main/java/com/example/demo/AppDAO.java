@@ -7,8 +7,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class AppDAO {
     
-    @Autowired
-    private JdbcTemplate jdbcTemplate;    
+    private JdbcTemplate jdbcTemplate;
+
+    public AppDAO(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }        
     
     public int saveOrders(Orders order) {
         int count = jdbcTemplate.update("insert into orders values(?,?,?,?)", order.getOrderId(), order.getOrderDesc(), order.getCustomerId(), order.getProductId());
