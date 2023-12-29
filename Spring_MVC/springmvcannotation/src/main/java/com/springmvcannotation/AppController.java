@@ -22,11 +22,13 @@ public class AppController {
     @RequestMapping("/products")
     public String getProducts() {
         // call, service logic
+    	System.out.println("products");
         return "products";
     }	
 	
     @RequestMapping("/customers")
 	public String getCustomers(ModelMap map) {
+    	System.out.println("hi");
     	List<Customer> customers = appservice.getCustomers();
     	map.put("customers", customers);
 		return "customers";

@@ -12,8 +12,8 @@
 		First Name: <form:input path="firstName" /> <br> <br>
 		Last Name: <form:input path="lastName" /> <br> <br>
 		Age: <form:input path="age" /> <br> <br> 
-		Postal Code: <form:input type="text" path="postalCode" /> <br> <br> 
-		Course Code: <form:input path="courseCode" /> <br> <br>
+		Postal code: <form:input type="text" path="postalCode" /> <br> <br> 
+		Course code: <form:input path="courseCode" /> <br> <br>
 		<form:button type="submit">Submit</form:button>
 	</form:form>
 </body>

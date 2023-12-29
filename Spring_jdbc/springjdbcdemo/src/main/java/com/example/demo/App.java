@@ -30,11 +30,11 @@ public class App {
 
         OrderService orderService = context.getBean("orderService",OrderService.class);
         Orders orders = new Orders();
-        orders.setOrderId("o5");
+        orders.setOrderId("o6");
         orders.setOrderDesc("Laptop ACER");
-        orders.setCustomerId("c500");
-        orders.setProductId("P500");
-        orderService.saveOrderInvoices(orders, "I500");
+        orders.setCustomerId("c600");
+        orders.setProductId("P600");
+        orderService.saveOrderInvoices(orders, "I600");
 
         context.close();
     }

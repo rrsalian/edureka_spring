@@ -42,8 +42,6 @@ public class AppDAO {
         int[][] updatecounts = jdbcTemplate.batchUpdate(
                 "insert into newcustomer(customer_id,customer_name,customer_city) values(?,?,?)", customers, batchSize,
                 new ParameterizedPreparedStatementSetter<Customer>() {
-                    private static int count;
-
                     @Override
                     public void setValues(PreparedStatement ps, Customer customer) throws SQLException {
                         // TODO Auto-generated method stub
@@ -53,6 +51,7 @@ public class AppDAO {
                         commitCount.incrementAndGet();
                         System.out.println("set values " + commitCount.get());
                     }
+                    
                 });
             System.out.println(updatecounts.length); // no of commits
     }
