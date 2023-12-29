@@ -36,9 +36,15 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 <<<<<<< HEAD:Spring_MVC/springmvcxmlstudent/.classpath
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 =======
+=======
+<<<<<<<< HEAD:Spring_MVC/springmvcxmlstudent/.classpath
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+========
+>>>>>>> 40b6cb4ae717de96440edb01d8e5f0b26c917280
 	<classpathentry kind="src" path="target/generated-sources/annotations">
 		<attributes>
 			<attribute name="optional" value="true"/>
@@ -56,6 +62,10 @@
 			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
+<<<<<<< HEAD
 >>>>>>> 40b6cb4ae717de96440edb01d8e5f0b26c917280:Spring_MVC/springmvcxmlcustomer/.classpath
+=======
+>>>>>>>> 40b6cb4ae717de96440edb01d8e5f0b26c917280:Spring_MVC/springmvcxmlcustomer/.classpath
+>>>>>>> 40b6cb4ae717de96440edb01d8e5f0b26c917280
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

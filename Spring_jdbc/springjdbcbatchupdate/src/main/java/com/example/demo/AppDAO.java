@@ -24,7 +24,7 @@ public class AppDAO {
                 new BatchPreparedStatementSetter() {
                     @Override
                     public void setValues(PreparedStatement ps, int i) throws SQLException {
-                        ps.setInt(1, customers.get(i).getCustomerId()); // TODO Auto-generated method stub
+                        ps.setInt(1, customers.get(i).getCustomerId());
                         ps.setString(2, customers.get(i).getCustomerName());
                         ps.setString(3, customers.get(i).getCustomerCity());
                     }

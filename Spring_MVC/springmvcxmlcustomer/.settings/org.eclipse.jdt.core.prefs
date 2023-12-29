@@ -1,6 +1,11 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 <<<<<<< HEAD:Spring_MVC/springmvcxmlstudent/.settings/org.eclipse.jdt.core.prefs
 =======
+=======
+<<<<<<<< HEAD:Spring_MVC/springmvcxmlstudent/.settings/org.eclipse.jdt.core.prefs
+========
+>>>>>>> 40b6cb4ae717de96440edb01d8e5f0b26c917280
 org.eclipse.jdt.core.builder.cleanOutputFolder=clean
 org.eclipse.jdt.core.builder.duplicateResourceTask=warning
 org.eclipse.jdt.core.builder.invalidClasspath=abort
@@ -14,7 +19,11 @@ org.eclipse.jdt.core.classpath.outputOverlappingAnotherSource=error
 org.eclipse.jdt.core.compiler.annotation.nonnull=org.springframework.lang.NonNull
 org.eclipse.jdt.core.compiler.annotation.nullable=org.springframework.lang.Nullable
 org.eclipse.jdt.core.compiler.annotation.nullanalysis=enabled
+<<<<<<< HEAD
 >>>>>>> 40b6cb4ae717de96440edb01d8e5f0b26c917280:Spring_MVC/springmvcxmlcustomer/.settings/org.eclipse.jdt.core.prefs
+=======
+>>>>>>>> 40b6cb4ae717de96440edb01d8e5f0b26c917280:Spring_MVC/springmvcxmlcustomer/.settings/org.eclipse.jdt.core.prefs
+>>>>>>> 40b6cb4ae717de96440edb01d8e5f0b26c917280
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.methodParameters=do not generate
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
